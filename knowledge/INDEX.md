@@ -8,15 +8,23 @@
 
 ```
 knowledge/
-├── INDEX.md                    ← YOU ARE HERE (always load)
-├── system-maintenance.md       ← Load when: auditing or maintaining the knowledge system
+├── INDEX.md                          ← YOU ARE HERE (always load)
+├── system-maintenance.md             ← Load when: auditing or maintaining the knowledge system
 │
-├── hypotheses/
-│   ├── index.md                ← Load when: reviewing what's being tested, or graduating a hypothesis
-│   ├── rejected.md             ← Load when: checking known false beliefs before starting work
-│   └── EXAMPLE.md              ← Reference only — shows the schema
-│
-└── [your-files]                ← Add domain-specific files here as your system grows
+└── craft/                            ← Content domain (modeled on the case-study tree)
+    ├── writing-techniques.md         ← Load when: drafting or editing any post (the craft rules)
+    ├── topic-lanes.md                ← Load when: routing an idea to a theme (7 lanes + energy)
+    ├── voice/
+    │   └── archetypes.md             ← Load when: choosing tone (9 archetypes; default Builder-Teacher)
+    ├── platforms/
+    │   ├── x-twitter.md              ← Load when: drafting for X
+    │   └── linkedin.md               ← Load when: drafting for LinkedIn
+    ├── posts/
+    │   └── performance-log.md        ← Load when: logging/analyzing post performance
+    └── hypotheses/
+        ├── index.md                  ← Load when: reviewing what's being tested, or graduating a hypothesis
+        ├── rejected.md               ← Load when: checking known false beliefs before starting work
+        └── EXAMPLE.md                ← Reference only — shows the schema
 ```
 
 ---
@@ -25,10 +33,13 @@ knowledge/
 
 | Task | Files to load (beyond this INDEX) |
 |------|-----------------------------------|
-| Review active hypotheses | `hypotheses/index.md` |
-| Check known false beliefs | `hypotheses/rejected.md` |
+| Draft / edit a post | `craft/writing-techniques.md` + relevant `craft/platforms/*.md` |
+| Pick the voice | `craft/voice/archetypes.md` |
+| Route an idea to a theme | `craft/topic-lanes.md` |
+| Log / analyze performance | `craft/posts/performance-log.md` |
+| Review active hypotheses | `craft/hypotheses/index.md` |
+| Check known false beliefs | `craft/hypotheses/rejected.md` |
 | Audit knowledge system | `system-maintenance.md` |
-| [Add your task types here] | [Add your files here] |
 
 ---
 
@@ -42,10 +53,10 @@ knowledge/
 
 ## System Status
 
-> **Last maintained:** [DATE]
-> **Active hypotheses:** [N] — see `hypotheses/index.md`
-> **Domains covered:** [LIST]
-> **Next maintenance due:** [DATE or trigger condition]
+> **Last maintained:** 2026-06-27 (system bootstrap)
+> **Active hypotheses:** 3 (HYP-004/005/006) — see `craft/hypotheses/index.md`. Graduated: 3 (HYP-001/002/003).
+> **Domains covered:** content craft (writing techniques, voice, platforms: X + LinkedIn, performance log, topic lanes)
+> **Next maintenance due:** after the first 10 real posts are logged, or in 30 days — whichever comes first
 
 ---
 
