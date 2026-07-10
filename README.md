@@ -1,4 +1,4 @@
-# Agent Second Brain
+# Content Second Brain
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![claude-code](https://img.shields.io/badge/claude--code-black?style=flat-square)](https://claude.ai/code)
@@ -6,123 +6,69 @@
 ![knowledge-management](https://img.shields.io/badge/knowledge--management-2E7D32?style=flat-square)
 ![second-brain](https://img.shields.io/badge/second--brain-6D4C41?style=flat-square)
 
-A starter kit for building a living knowledge system for Claude Code agents. Based on a production system running since early 2026.
+A living knowledge system for a Claude Code agent that helps create **short-form content for X (Twitter) and LinkedIn**. It's an instantiation of the architecture in Pawel Huryn's case study — *"From 4 hours to 30 minutes a day. 5M+ X impressions in 3 months"* — built on his [`agent-second-brain`](https://github.com/phuryn/agent-second-brain) starter kit.
 
-Clone it. Fill in your identity. Start building.
-
----
-
-## What This Is
-
-Most people configure Claude Code by writing a CLAUDE.md that tells the agent what tools to use and what tone to take. That works for simple tasks.
-
-This is a different architecture. It treats the agent's knowledge as a system that grows, is tested, and evolves — not a static config file that ages out of date.
-
-The result is an agent that gets better at your specific work over time. Rules graduate from hypotheses. Failed beliefs get logged so you don't re-learn them. The agent loads only what it needs.
+The point isn't a config file that tells Claude what tone to take. It's a **memory architecture that compounds**: rules graduate from hypotheses, failed beliefs get logged so they're never re-tested, and the agent loads only what each task needs.
 
 ---
 
-## Why CLAUDE.md Isn't Config — It's Memory Architecture
+## What's in here (already set up)
 
-A config file tells software what to do. Memory tells an agent who it's working for, what it knows, and how to reason.
+This repo is **not** an empty starter — the identity and content knowledge base are filled in:
 
-The difference matters because:
-
-**Config decays.** You write a rule in month one. By month three, you've learned three exceptions and the rule is technically wrong but nobody's updated it. The agent enforces a rule that lost its validity.
-
-**Memory evolves.** Hypotheses get tested. Rules graduate from evidence. The system has a mechanism for being wrong and correcting itself.
-
-**Config loads everything.** The bigger your CLAUDE.md, the worse the signal-to-noise ratio. An agent reading 200 lines to do a 10-line task is working against itself.
-
-**Memory loads on demand.** The agent reads the INDEX, identifies the task type, and loads only the files that matter. Knowledge scales without degrading context quality.
-
-This repository gives you the architecture. You supply the knowledge.
+- **`CLAUDE.md`** — the brain. Identity (content creator / builder-teacher), output standards, routing table, the ingest + hypothesis procedures, and the hard constraints that keep the system honest.
+- **`knowledge/INDEX.md`** — the router. Loaded first; tells the agent which `craft/` files a given task needs (progressive disclosure — never load everything).
+- **`knowledge/craft/`** — the content domain, mirroring the case-study tree:
+  - `writing-techniques.md` — the craft rules (one idea per post, the data-experiment format, the 10+ iteration editing loop).
+  - `voice/archetypes.md` — 9 voice archetypes; **Builder-Teacher** is the default and the high performer.
+  - `platforms/x-twitter.md` + `platforms/linkedin.md` — per-platform hooks, templates, rules (e.g. **negation hooks beat positive hooks on LinkedIn**).
+  - `posts/performance-log.md` — the feedback layer; analyzed posts and the metrics that confirm or challenge rules.
+  - `topic-lanes.md` — 7 topic lanes with energy tracking.
+  - `hypotheses/` — the learning loop: `index.md` (active + graduated), `rejected.md` (immune memory), `EXAMPLE.md` (schema).
 
 ---
 
-## Four Cognitive Components
-
-The system addresses four capabilities most agent setups are missing:
+## Four cognitive components
 
 | Component | What it does | Key file |
 |-----------|-------------|----------|
-| **Perception** | Loads only what the task needs (3-4 files standard, 5-6 complex) | `INDEX.md` |
+| **Perception** | Loads only what the task needs (3–4 files standard) | `knowledge/INDEX.md` |
 | **Reasoning** | Routes task types to the right knowledge files | `CLAUDE.md` routing table |
-| **Learning** | Tests hypotheses, graduates them to rules with 3+ data points | `hypotheses/index.md` |
-| **Immunity** | Logs rejected beliefs so the agent never re-tests them | `hypotheses/rejected.md` |
+| **Learning** | Tests hypotheses, graduates them to rules with 3+ data points | `craft/hypotheses/index.md` |
+| **Immunity** | Logs rejected beliefs so the agent never re-tests them | `craft/hypotheses/rejected.md` |
 
-New evidence becomes a hypothesis first. Hypotheses graduate through evidence, not conviction. The false belief you've already tested is the most expensive one to re-test.
-
----
-
-## Quick Start
-
-```bash
-# 1. Clone
-git clone https://github.com/phuryn/agent-second-brain
-cd agent-second-brain
-
-# 2. Fill in your identity
-# Open Claude Code in this directory. The agent will detect empty brackets
-# and walk you through setup automatically (First Run onboarding).
-# Or edit CLAUDE.md manually — replace all [BRACKETS] with your specifics.
-
-# 3. Start using it
-# Open Claude Code. The agent will load knowledge/INDEX.md at conversation start.
-# Add knowledge files as your system grows. Update INDEX.md routing when you do.
-
-```
-
-See `examples/` for filled-in systems showing how different roles use this structure. Copy one as a starting point if it matches your role.
+New evidence becomes a **hypothesis** first. Hypotheses graduate through evidence, not conviction. The false belief you've already tested is the most expensive one to re-test.
 
 ---
 
-## File Structure
+## How the patterns got here (honesty note)
 
-```
-agent-second-brain/
-├── README.md
-├── CLAUDE.md                          # Identity, routing, procedures, constraints
-├── knowledge/
-│   ├── INDEX.md                       # Master routing file — always load first
-│   ├── system-maintenance.md          # Diagnostic script + hygiene rules
-│   └── hypotheses/
-│       ├── index.md                   # Hypothesis tracking + graduation schema
-│       ├── rejected.md                # Immune memory — beliefs proven wrong
-│       └── EXAMPLE.md                 # Reference — shows schema at each lifecycle stage
-└── examples/
-    ├── software-engineer/             # Backend engineer: code review, architecture, bug analysis
-    ├── researcher/                    # Research scientist: literature, experiments, methodology
-    └── ops-engineer/                  # SRE: incident response, runbooks, system health
-```
+Three rules are seeded from findings the **case study reports with data**, and tagged `[from case study]` in the files:
 
-Each example contains a filled-in `CLAUDE.md` with role-specific procedures, domain knowledge files, populated hypotheses (active, graduated, and rejected), and routing — a complete working system you can copy as a starting point.
+1. Data-experiment posts earn ~**3× the bookmarks** of opinion posts.
+2. **Negation hooks** outperform positive hooks on LinkedIn.
+3. **Builder-teacher** posts outperform analyst takes.
+
+The article is partly paywalled and does **not** publish the underlying 26 templates, 13 hypotheses, or 50+ false beliefs. So everything else here is a **starter** — sensible defaults seeded at setup, clearly marked, meant to be confirmed or killed by your own data. Nothing fabricated is presented as Pawel's private content.
 
 ---
 
-## What This Is Not
+## How to use it
 
-This is not a prompt library. It's not a collection of system prompts you paste into Claude. It's not a one-size-fits-all configuration.
+1. Open Claude Code in this directory. The agent loads `knowledge/INDEX.md` at the start of every conversation.
+2. **Draft:** "draft a LinkedIn post about X" → it loads the craft + platform rules, proposes hooks, and iterates with you.
+3. **Learn:** after a post runs, log its metrics in `craft/posts/performance-log.md`. When a pattern hits 3+ data points, the agent surfaces it for graduation to a rule.
+4. **Stay honest:** when something contradicts a rule, the agent opens a hypothesis instead of silently editing the rule. Disproven beliefs go to `rejected.md`.
 
-It's a structure. You bring the knowledge. The system gives it somewhere to live, a mechanism for evolving, and a way to make sure the agent loads the right things at the right time.
-
----
-
-## Full Article
-
-**[Karpathy Built a Second Brain for Humans. Here's One for Your AI Agent.](https://x.com/PawelHuryn/status/2041519394254176581)**
+To extend: add a knowledge file, then add its routing row to `knowledge/INDEX.md` **and** the `CLAUDE.md` table. See `knowledge/system-maintenance.md` for split/merge/archive rules.
 
 ---
 
 ## Credit
 
-Built by Pawel Huryn (The Product Compass Newsletter). Based on a production system running since early 2026.
+Architecture by **Pawel Huryn** (The Product Compass). Based on his production system and case study:
 
-First published March 16, 2026. Link: https://www.productcompass.pm/p/self-improving-claude-system
+- Starter kit: https://github.com/phuryn/agent-second-brain
+- Case study: *Karpathy Built a Second Brain for Humans. Here's One for Your AI Agent.* — https://www.productcompass.pm/p/self-improving-claude-system
 
----
-
-## Contributing
-
-Issues and PRs welcome. If you build an example for a new role, submit it.
-
+The role examples under `examples/` (software-engineer, researcher, ops-engineer) are from the original starter kit and kept as reference.
