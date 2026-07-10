@@ -15,7 +15,8 @@ knowledge/
     ├── writing-techniques.md         ← Load when: drafting or editing any post (the craft rules)
     ├── topic-lanes.md                ← Load when: routing an idea to a theme (7 lanes + energy)
     ├── voice/
-    │   └── archetypes.md             ← Load when: choosing tone (9 archetypes; default Builder-Teacher)
+    │   ├── archetypes.md             ← Load when: choosing tone (9 archetypes; default Builder-Teacher)
+    │   └── personal-voice-dna.md     ← Load when: choosing tone (Marta's personal signature — 12 DNA traits; overlays the archetype)
     ├── platforms/
     │   ├── x-twitter.md              ← Load when: drafting for X
     │   └── linkedin.md               ← Load when: drafting for LinkedIn
@@ -34,7 +35,7 @@ knowledge/
 | Task | Files to load (beyond this INDEX) |
 |------|-----------------------------------|
 | Draft / edit a post | `craft/writing-techniques.md` + relevant `craft/platforms/*.md` |
-| Pick the voice | `craft/voice/archetypes.md` |
+| Pick the voice | `craft/voice/archetypes.md` + `craft/voice/personal-voice-dna.md` |
 | Route an idea to a theme | `craft/topic-lanes.md` |
 | Log / analyze performance | `craft/posts/performance-log.md` |
 | Review active hypotheses | `craft/hypotheses/index.md` |
@@ -53,9 +54,9 @@ knowledge/
 
 ## System Status
 
-> **Last maintained:** 2026-06-27 (system bootstrap)
-> **Active hypotheses:** 3 (HYP-004/005/006) — see `craft/hypotheses/index.md`. Graduated: 3 (HYP-001/002/003).
-> **Domains covered:** content craft (writing techniques, voice, platforms: X + LinkedIn, performance log, topic lanes)
+> **Last maintained:** 2026-07-10 (added personal voice DNA + HYP-007)
+> **Active hypotheses:** 4 (HYP-004/005/006/007) — see `craft/hypotheses/index.md`. Graduated: 3 (HYP-001/002/003).
+> **Domains covered:** content craft (writing techniques, voice archetypes + personal DNA, platforms: X + LinkedIn, performance log, topic lanes)
 > **Next maintenance due:** after the first 10 real posts are logged, or in 30 days — whichever comes first
 
 ---

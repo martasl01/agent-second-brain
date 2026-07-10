@@ -51,6 +51,17 @@ Full graduation/rejection criteria and the schema live in `EXAMPLE.md` and in `.
 - [none yet]
 **Notes:** If true, raise that lane's drafting priority. Starter hypothesis.
 
+### HYP-007
+**Statement:** Osobisty podpis głosu Marty wyprowadzony z jej krytyki muzycznej (długa forma, 2008–2012 — patrz `../voice/personal-voice-dna.md`) przenosi się na short-form X/LinkedIn w postawie Builder-Teacher i daje posty powyżej mediany bookmarków vs neutralny/generyczny ton.
+**Status:** active
+**Created:** 2026-07-10
+**Context:** X + LinkedIn, dowolny archetyp; podpis nałożony wg sekcji „Jak nakładać podpis na archetyp" w `../voice/personal-voice-dna.md`.
+**Evidence for:**
+- [none yet]
+**Evidence against:**
+- [none yet]
+**Notes:** Rdzeń DNA (rytm, dialektyka, autoironia, puenta) to reguła oparta na 6 próbkach; NIEZNANE jest, czy skaluje się na short-form buildera. Testuj parami: ten sam pomysł raz z podpisem Marty, raz neutralnie — porównaj bookmarki/engagement. Ryzyko do obserwacji: literacka gęstość i namechecking, które na short-form mogą obniżać wynik (patrz anty-wzorce w pliku voice). Graduacja → wpis reguły do `../voice/personal-voice-dna.md`; rejection → `rejected.md`.
+
 ---
 
 ## Graduated Hypotheses

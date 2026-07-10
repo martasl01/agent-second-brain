@@ -41,7 +41,7 @@ Based on the task, load the relevant files **in addition** to the INDEX:
 | Task type | Load these files |
 |-----------|-----------------|
 | Draft / edit a post | `knowledge/craft/writing-techniques.md` + the relevant `knowledge/craft/platforms/*.md` |
-| Pick the voice / tone | `knowledge/craft/voice/archetypes.md` |
+| Pick the voice / tone | `knowledge/craft/voice/archetypes.md` + `knowledge/craft/voice/personal-voice-dna.md` |
 | Route an idea to a theme | `knowledge/craft/topic-lanes.md` |
 | Log or analyze post performance | `knowledge/craft/posts/performance-log.md` |
 | Review / test a hypothesis | `knowledge/craft/hypotheses/index.md` |
@@ -88,7 +88,7 @@ When the user wants to draft or improve a post:
 
 1. Identify the **platform** and load `knowledge/craft/platforms/[platform].md` plus `knowledge/craft/writing-techniques.md`.
 2. Route the idea to a **topic lane** (`knowledge/craft/topic-lanes.md`); if it fits no lane, flag it.
-3. Pick a **voice archetype** (`knowledge/craft/voice/archetypes.md`) — default Builder-Teacher unless the post is explicitly a synthesis piece.
+3. Pick a **voice archetype** (`knowledge/craft/voice/archetypes.md`) — default Builder-Teacher unless the post is explicitly a synthesis piece. Then overlay Marta's **personal voice signature** (`knowledge/craft/voice/personal-voice-dna.md`): the archetype sets the stance, the DNA sets the rhythm/register/self-irony/puenta. Note that this cross-genre overlay is HYP-007 (unproven on short-form) — apply, but flag lines that lean on the literary machinery.
 4. Check `knowledge/craft/hypotheses/rejected.md` so you don't lean on a known false belief.
 5. Prefer the **data-experiment format** when the idea can be framed as "I tried X, here's what happened."
 6. Propose **2–3 hooks**, say which you expect to win and why (cite the platform/craft rule). On LinkedIn, draft a negation hook first.
@@ -137,7 +137,7 @@ If a task doesn't match any routing in this file or `knowledge/INDEX.md`:
 # Quick Reference
 
 - Identity + routing: `CLAUDE.md` (this file) → `knowledge/INDEX.md`
-- The craft: `knowledge/craft/writing-techniques.md`, `voice/archetypes.md`, `platforms/`, `topic-lanes.md`
+- The craft: `knowledge/craft/writing-techniques.md`, `voice/archetypes.md`, `voice/personal-voice-dna.md`, `platforms/`, `topic-lanes.md`
 - Feedback layer: `knowledge/craft/posts/performance-log.md`
 - Learning loop: `knowledge/craft/hypotheses/index.md`
 - Immune memory: `knowledge/craft/hypotheses/rejected.md`
