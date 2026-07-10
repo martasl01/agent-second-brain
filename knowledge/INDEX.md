@@ -16,7 +16,7 @@ knowledge/
     ├── topic-lanes.md                ← Load when: routing an idea to a theme (7 lanes + energy)
     ├── voice/
     │   ├── archetypes.md             ← Load when: choosing tone (9 archetypes; default Builder-Teacher)
-    │   └── personal-voice-dna.md     ← Load when: choosing tone (Marta's personal signature — 15 DNA traits; overlays the archetype)
+    │   └── personal-voice-dna.md     ← Load when: choosing tone (Marta's personal signature — 18 DNA traits; overlays the archetype)
     ├── platforms/
     │   ├── x-twitter.md              ← Load when: drafting for X
     │   └── linkedin.md               ← Load when: drafting for LinkedIn
@@ -54,7 +54,7 @@ knowledge/
 
 ## System Status
 
-> **Last maintained:** 2026-07-10 (voice DNA rozszerzone o 4 nowe próbki: 12→15 cech + sekcja „Dowód kompresji"; pierwszy pośredni evidence point dla HYP-007)
+> **Last maintained:** 2026-07-10 (voice DNA: korpus 6→14 tekstów, cechy 12→18, sekcje „Dowód kompresji" i „Ewolucja rejestru 2007→2016"; 2 pośrednie evidence pointy dla HYP-007)
 > **Active hypotheses:** 4 (HYP-004/005/006/007) — see `craft/hypotheses/index.md`. Graduated: 3 (HYP-001/002/003).
 > **Domains covered:** content craft (writing techniques, voice archetypes + personal DNA, platforms: X + LinkedIn, performance log, topic lanes)
 > **Next maintenance due:** after the first 10 real posts are logged, or in 30 days — whichever comes first

@@ -4,12 +4,12 @@ Ten plik opisuje **osobisty podpis głosu Marty** — to, co brzmi jak ona *niez
 
 Kolejność ładowania przy pisaniu: `archetypes.md` → wybierz postawę → ten plik → nałóż podpis głosu.
 
-> **Provenance:** cechy DNA (1–15) są **[from samples]** — wyprowadzone z 10 tekstów Marty na screenagers.pl (2007–2012): 5 recenzji płyt (Erykah Badu, Eno & Byrne, The xx, Amadou & Mariam, Akron/Family) + 2 relacje koncertowe (David Byrne, Madonna) + 3 miniatury z „Podsumowania dekady" (Róisín Murphy, Burial, The Avalanches — najkrótsze próbki, ~150–300 słów; kluczowe dla pytania o kompresję głosu). Źródła leżą w `~/Documents/super-brain-main/Clippings/` (analiza pełna: `super-brain-main/4-Knowledge/Marta - Voice & Style Guide.md`). Rozszerzenie 2026-07-10: +Akron/Family i +miniatury → cechy 13–15 i sekcja „Dowód kompresji".
+> **Provenance:** cechy DNA (1–18) są **[from samples]** — wyprowadzone z 14 tekstów Marty na screenagers.pl (2007–2016): 7 recenzji płyt (Erykah Badu, Eno & Byrne, The xx, Amadou & Mariam, Akron/Family, Katy B, Frank Ocean „Blonde") + 1 recenzja singla (Autre Ne Veut „Play By Play" — krótka forma) + 2 relacje koncertowe (David Byrne, Madonna) + 4 miniatury (Róisín Murphy, Burial, The Avalanches z „Podsumowania dekady"; Frank Ocean „Channel Orange" z podsumowania 2012 — najkrótsze próbki, ~150–300 słów; kluczowe dla pytania o kompresję głosu). Źródła leżą w `~/Documents/super-brain-main/Clippings/` (analiza pełna: `super-brain-main/4-Knowledge/Marta - Voice & Style Guide.md`). Rozszerzenia 2026-07-10: +Akron/Family i +miniatury → cechy 13–15 i sekcja „Dowód kompresji"; +Blonde/ANV/Katy B/Channel Orange → cechy 16–18 i notka o ewolucji rejestru.
 > **UWAGA (hard constraint tego repo):** cały korpus to **krytyka muzyczna, długa forma**. Przeniesienie tego głosu na **short-form X/LinkedIn w postawie Builder-Teacher** jest **HIPOTEZĄ, nie regułą** — patrz `../hypotheses/index.md` HYP-007. Rdzeń (rytm, dialektyka, autoironia, puenta) to solidna reguła; skala i maszyneria wymagają dostrojenia na realnych postach.
 
 ---
 
-## Rdzeń głosu (DNA) — 15 cech
+## Rdzeń głosu (DNA) — 18 cech
 
 1. **Teza-uderzenie, potem samopodważenie.** Mocny sąd na otwarcie, zaraz komplikowany. „…jest być może najważniejszym geniuszem współczesnej muzyki. Albo — ostatecznie — lubimy i potrzebujemy o niej myśleć w tych kategoriach." Wariant: **otwarcie czystą negacją** — „Nie są ze sobą spokrewnieni, ani tym bardziej nie pochodzą z Akron." (Akron/Family). Negation hook to naturalny chwyt Marty, nie tylko reguła platformy (HYP-001).
 2. **Myślenie dialektyczne.** „o ile… o tyle", „z jednej… z drugiej", „jednakowoż", „mimo to". Ważenie racji jako uczciwość, nie asekuracja.
@@ -26,6 +26,15 @@ Kolejność ładowania przy pisaniu: `archetypes.md` → wybierz postawę → te
 13. **Koncept z obcej domeny jako rusztowanie werdyktu.** Ocena opowiedziana, nie wystawiona — i to metaforą spoza muzyki, trzymaną konsekwentnie przez cały tekst. Recenzja Akron/Family rozstrzyga się mundialem USA'94: płyta to Bułgaria (czarny koń), „Stoiczkow górował nad Roberto Baggio", a słabszy utwór dostaje werdykt „Karny poszybował nad poprzeczką". Drugie pole w tym samym tekście: dieta/kalorie („kaloryczne skojarzenia", „kto planował dietę, może śmiało ten pomysł porzucić", „codzienne menu każdego melomana"). Klucz: pole raz wybrane nie jest porzucane po jednym zdaniu.
 14. **Nawias jako wentyl.** Dwa użycia. (a) Wykrzyknik fanki — na moment spada maska krytyczki: „(jak one chodzą w «You Loving Me»!)", „(jak on rewelacyjnie wyciągnął sampel z Raya J)". (b) Metatekstowe mrugnięcie: „(sic!)", „(dwuznaczność zamierzona)", „(choć nie tak fantastycznych, niestety)". Nawias to u Marty miejsce na emocję i autokomentarz, których „poważny" tok zdania by nie udźwignął.
 15. **Klamra przez powtórzenie frazy.** Kluczowa fraza wraca na końcu w ściętej formie jako domknięcie: „…olśnienia samą sobą, po prostu. […] «Since I Left You» olśniewa, po prostu." Powtórzenie działa jak refren — czytelnik rozpoznaje powrót i czuje zamknięcie koła.
+16. **Teatr mowy — apostrofa do postaci.** Marta mówi DO ludzi, nie o nich: do samej siebie sprzed lat („Nadgorliwość? Puryzm? O Talking Heads albo postpunku pani słyszała?"), do producenta w środku analizy („Co żeś tu, Geeneus, chłopaku, nawyprawiał."), do całej branży („Czy wy chcecie, żeby ludzie wrócili na emule?"). Rozszerzenie trybu przewodniczki (12): scena zaludnia się adresatami, tekst brzmi jak rozmowa, nie wykład.
+17. **Ryzykowne gesty pewności: scenka-hiperbola i zakład z przyszłością.** Argument przez komiczny, wyobrażony obraz: „wysłać tych genialnych biznesmenów i tęgie głowy od kreacji o fizysie Christiana Bale'a z «American Psycho» (tak ich sobie wyobrażam) na karne ściąganie plików z Kazyy. Opamiętają się po trzecim trojanie." Oraz odważna predykcja pierwszoosobowa: „Jestem pewna, że te wszystkie wizualne albumy staną się w przyszłości jednym z najbardziej wyszydzanych reliktów naszej epoki." Do tego emfaza typograficzna jako ironia: „«Blonde» na każdym niemal kroku domaga się nazywania jej mianem POSTMUZYKI."
+18. **Zmiana zdania i osobista stawka na stole.** Otwarcie od przyznania się do dawnego błędu: „Do dziś nie mogę pojąć, dlaczego jeszcze parę lat temu projekty takie jak Autre Ne Veut… budziły we mnie niechęć." Korekta w toku tekstu: „«Broken Record», wobec którego początkowo miałam sporo zastrzeżeń… funkcjonuje perfekcyjnie." I najmocniejszy gest korpusu — puenta ujawniająca osobistą stawkę: „To płyta ważna dla mnie, jako słuchaczki… ale ważna także dla mnie, jako lesbijki." Wiarygodność przez odsłonięcie, nie przez autorytet.
+
+---
+
+## Ewolucja rejestru (2007 → 2016)
+
+Późne teksty (ANV 2013, „Blonde" 2016) schodzą rejestrem wyraźnie niżej: „koleś buduje schody, nie wiem, może do sklepu Apple'a. A dajcie spokój.", „typek", „Co żeś tu… nawyprawiał". Rdzeń (teza-uderzenie, dialektyka, siekiera, puenta, zbalansowany werdykt) bez zmian — zmienia się temperatura słownika. Dla short-form to dobra wiadomość: **późna faza głosu jest naturalnie blisko języka X** — pisząc posty, kalibruj na fazę 2013–2016, nie na barokową fazę 2007–2011.
 
 ---
 
@@ -44,13 +53,17 @@ Trzy wpisy po ~150–300 słów (Róisín Murphy, Burial, The Avalanches) to pie
 
 **NIE znika samo: namechecking.** Miniatura Buriala jest nim gęsta mimo krótkiej formy (Rascal, Wiley, Ray J, Guido, Gemmy, Joker…). Wniosek: maszyneria gatunkowa to funkcja **gatunku**, nie długości — skrócenie tekstu jej nie wycina. Na X/LinkedIn wyłączaj ją **świadomie**, jako osobną operację redakcyjną.
 
+**Drugi punkt kompresji:** recenzja singla Autre Ne Veut (~350 słów, 2013) trzyma pełny łuk w krótkiej formie: samoironiczne otwarcie od zmiany zdania → dialektyka („Schemat, ale jakże przekonujący.") → puenta obrazem („jakby miał być ostatnim numerem, jaki Autre Ne Veut kiedykolwiek nagra"). Namechecking znów obecny mimo krótkiej formy — potwierdza wniosek powyżej.
+
 *(Zastrzeżenie: miniatury to wciąż krytyka muzyczna, więc to dowód pośredni dla HYP-007 — obniża ryzyko hipotezy, ale nie liczy się do graduacji.)*
 
 ---
 
 ## Jak nakładać podpis na archetyp (short-form, hipoteza HYP-007)
 
-Na X/LinkedIn zostają cechy **1, 2, 3, 5, 7, 8, 14** jako rdzeń; **13** (koncept z obcej domeny) dobrze niesie dłuższy post LinkedIn — jedno pole metaforyczne na post, trzymane do końca; **9** ogranicz do jednego coinage'u; **11/12/15** działają w dłuższym poście/wątku jako rusztowanie. **Maszyneria = zero — i pamiętaj: nie zniknie sama od skrócenia (patrz „Dowód kompresji").**
+Na X/LinkedIn zostają cechy **1, 2, 3, 5, 7, 8, 14, 16–18** jako rdzeń; **13** (koncept z obcej domeny) dobrze niesie dłuższy post LinkedIn — jedno pole metaforyczne na post, trzymane do końca; **9** ogranicz do jednego coinage'u; **11/12/15** działają w dłuższym poście/wątku jako rusztowanie. Rejestr kalibruj na późną fazę (2013–2016), nie barokową. **Maszyneria = zero — i pamiętaj: nie zniknie sama od skrócenia (patrz „Dowód kompresji").**
+
+- **Formaty wprost z korpusu (cechy 17–18):** „Myliłam się co do X" (wzorzec ANV: dawna niechęć → co ją obaliło → co z tego wynika; naturalnie łączy negation hook z autoironią) oraz „Stawiam, że za N lat…" (predykcja z „Blonde"). Oba niosą tezę-uderzenie bez literackiej maszynerii.
 
 - **Builder-Teacher + podpis Marty:** „zbudowałem/nauczyłem się" prowadzone tezą-uderzeniem, łamane siekierą, domknięte szczerą puentą. Nie „oto 5 lekcji" — raczej „myślałam, że X. Nie X." + dowód + puenta.
 - **Contrarian + podpis Marty:** dialektyka (2) i autoironia (5) chronią przed strawmanem — pokazujesz, że rozumiesz drugą stronę, zanim ją obalisz.
