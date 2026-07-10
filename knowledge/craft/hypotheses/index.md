@@ -57,10 +57,10 @@ Full graduation/rejection criteria and the schema live in `EXAMPLE.md` and in `.
 **Created:** 2026-07-10
 **Context:** X + LinkedIn, dowolny archetyp; podpis nałożony wg sekcji „Jak nakładać podpis na archetyp" w `../voice/personal-voice-dna.md`.
 **Evidence for:**
-- [none yet]
+- 2026-07-10 **(pośredni — nie liczy się do graduacji, wciąż krytyka muzyczna):** 3 miniatury z „Podsumowania dekady" screenagers.pl (~150–300 słów) pokazują, że rdzeń DNA przeżywa kompresję ~10×: osobisty frame, siekiera potoczna, puenta pytanie+werdykt, nawias-wentyl. Zarazem ostrzeżenie: namechecking NIE znika przy skróceniu (miniatura Buriala) — wyłączenie maszynerii na short-form to świadoma operacja, nie efekt długości. Patrz sekcja „Dowód kompresji" w `../voice/personal-voice-dna.md`.
 **Evidence against:**
 - [none yet]
-**Notes:** Rdzeń DNA (rytm, dialektyka, autoironia, puenta) to reguła oparta na 6 próbkach; NIEZNANE jest, czy skaluje się na short-form buildera. Testuj parami: ten sam pomysł raz z podpisem Marty, raz neutralnie — porównaj bookmarki/engagement. Ryzyko do obserwacji: literacka gęstość i namechecking, które na short-form mogą obniżać wynik (patrz anty-wzorce w pliku voice). Graduacja → wpis reguły do `../voice/personal-voice-dna.md`; rejection → `rejected.md`.
+**Notes:** Rdzeń DNA (rytm, dialektyka, autoironia, puenta) to reguła oparta na 10 próbkach; NIEZNANE jest, czy skaluje się na short-form buildera. Testuj parami: ten sam pomysł raz z podpisem Marty, raz neutralnie — porównaj bookmarki/engagement. Ryzyko do obserwacji: literacka gęstość i namechecking, które na short-form mogą obniżać wynik (patrz anty-wzorce w pliku voice). Graduacja → wpis reguły do `../voice/personal-voice-dna.md`; rejection → `rejected.md`.
 
 ---
 
